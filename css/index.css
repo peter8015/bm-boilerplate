@@ -1,0 +1,39 @@
+.foot1 {
+	margin-top: 1px;
+	margin-bottom: 20px;
+}
+
+.good {
+	border-radius: 5px;
+	border: 2px solid gray; 
+	height: 200px;	
+
+}
+
+.good-u > li {
+	margin-top: 2px;
+	list-style: none;
+	list-style-type: circle;
+
+
+}
+
+.zixun {
+	border-radius: 5px;
+	border: 2px solid gray; 
+	height: 100px;	
+}
+
+
+.zhishi {
+	border-radius: 5px;
+	border: 2px solid gray; 
+	height: 100px;	
+}
+
+
+.qudao {
+	border-radius: 5px;
+	border: 2px solid gray; 
+	height: 100px;	
+}
