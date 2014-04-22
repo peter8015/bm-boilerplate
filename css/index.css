@@ -37,3 +37,18 @@
 	border: 2px solid gray; 
 	height: 100px;	
 }
+
+.nav_menu1 {
+	width: 940px;
+	margin: auto;
+	height: 40px;
+	background: url("../img/menu.png") repeat-x;
+	
+	
+}
+
+
+.menu1 a:hover {
+	text-decoration: none;
+	background: #900;
+}
