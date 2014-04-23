@@ -1,88 +1,11 @@
-.foot1 {
-	margin-top: 1px;
-	margin-bottom: 20px;
-}
+.nav_menu{ margin:auto;height:42px; background:url("../img/menu.png") repeat-x; border-radius: 2px;}
+.nav_menu .menu a{ display:block;_display:inline-block;color:#fff;height:42px;line-height:42px;padding:0 9px;}
+.nav_menu .menu ul li:last-first{ padding-left:40px;}
 
-.good {
-	border-radius: 5px;
-	border: 2px solid gray; 
-	height: 200px;	
+.menu li{ float:left;font:normal 16px/26px "Microsoft YaHei";height:42px;list-style: none;padding-right: 15px;}
+.menu {padding-left: 5px;}
+.menu a:hover{ text-decoration: none;background:#900}
+.menu .parting{ width:12px;background:url( y.png) no-repeat 7px -980px;_width:2px;_background:url( y.png) no-repeat 0 -981px;}
 
-}
-
-.good-u > li {
-	margin-top: 2px;
-	list-style: none;
-	list-style-type: circle;
-
-
-}
-
-.zixun {
-	border-radius: 5px;
-	border: 2px solid gray; 
-	height: 100px;	
-}
-
-
-.zhishi {
-	border-radius: 5px;
-	border: 2px solid gray; 
-	height: 100px;	
-}
-
-
-.qudao {
-	border-radius: 5px;
-	border: 2px solid gray; 
-	height: 100px;	
-}
-
-.nav_menu1 {
-	width: 940px;
-	margin: auto;
-	height: 40px;
-	/*background: url("../img/menu.png") repeat-x;*/
-	padding-left: 5px;
-	
-}
-
-
-.nav1 {
-	display: block;
-}
-
-.nav1 > li {
-	font-size: 20px;
-	font-weight: bold;
-	color:black;
-
-}
-
-
-.nav1 > li > a:hover {
-	text-decoration: none;
-	background: #900;
-	background-color:#900; 
-	font-size: 30px;
-
-}
-
-
-.show2 {
-	background: url("../img/menu.png") repeat-x;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.show1 > li {
-	color: white;
-	list-style: none;
-	display: inline;
-	font-size: 30px;
-
-}
-
-.show1 > li > a:hover{
-	
-}
+.clearfix { display:block;*display:inline-block;}
+.clearfix:after { content:".";display:block;height:0;clear:both;visibility:hidden;}
