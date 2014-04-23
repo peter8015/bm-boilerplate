@@ -42,13 +42,47 @@
 	width: 940px;
 	margin: auto;
 	height: 40px;
-	background: url("../img/menu.png") repeat-x;
-	
+	/*background: url("../img/menu.png") repeat-x;*/
+	padding-left: 5px;
 	
 }
 
 
-.menu1 a:hover {
+.nav1 {
+	display: block;
+}
+
+.nav1 > li {
+	font-size: 20px;
+	font-weight: bold;
+	color:black;
+
+}
+
+
+.nav1 > li > a:hover {
 	text-decoration: none;
 	background: #900;
+	background-color:#900; 
+	font-size: 30px;
+
+}
+
+
+.show2 {
+	background: url("../img/menu.png") repeat-x;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.show1 > li {
+	color: white;
+	list-style: none;
+	display: inline;
+	font-size: 30px;
+
+}
+
+.show1 > li > a:hover{
+	
 }
