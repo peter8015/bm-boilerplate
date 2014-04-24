@@ -9,3 +9,14 @@
 
 .clearfix { display:block;*display:inline-block;}
 .clearfix:after { content:".";display:block;height:0;clear:both;visibility:hidden;}
+
+
+.slidnr {
+width: 763px;
+height: 389px;
+margin: 0 auto;
+position: relative;
+border: 1px solid #eee;
+border-top: 0;
+background: #FFF;
+}
